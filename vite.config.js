@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),react()
   ],
+  base: "/Currency_Conventer/", // WICHTIG für GitHub Pages (falls du es nutzt)
 })
